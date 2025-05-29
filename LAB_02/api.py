@@ -6,6 +6,15 @@ from cipher.playfair import PlayfairCipher
 
 app = Flask(__name__)
 
+# #Route
+# @app.route("/")
+# def home():
+#     return render_template('index.html')
+
+# @app.route("/caesar")
+# def caesar():
+#     return render_template('caesar.html')
+
 #CAESAR CIPHER ALGORIHM
 caesar_cipher = CaesarCipher()
 
