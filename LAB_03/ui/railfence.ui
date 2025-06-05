@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>RailFenceMainWindow</class>
+ <widget class="QMainWindow" name="RailFenceMainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>705</width>
-    <height>456</height>
+    <width>616</width>
+    <height>459</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Rail Fence Cipher</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_title">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>160</x>
       <y>10</y>
-      <width>251</width>
+      <width>341</width>
       <height>51</height>
      </rect>
     </property>
@@ -31,15 +31,15 @@
      </font>
     </property>
     <property name="text">
-     <string>CAESAR CIHER</string>
+     <string>RAIL FENCE CIPHER</string>
     </property>
    </widget>
-   <widget class="QLabel" name="plain_text">
+   <widget class="QLabel" name="plain_text_label">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>120</y>
-      <width>47</width>
+      <width>80</width>
       <height>13</height>
      </rect>
     </property>
@@ -47,25 +47,25 @@
      <string>Plain text:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="key">
+   <widget class="QLabel" name="key_label">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>190</y>
-      <width>47</width>
-      <height>13</height>
+      <width>41</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string>Key:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="cipher_text_label">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>240</y>
-      <width>61</width>
+      <width>80</width>
       <height>16</height>
      </rect>
     </property>
@@ -119,17 +119,20 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txt_key">
+   <widget class="QLineEdit" name="txt_key">
     <property name="geometry">
      <rect>
       <x>100</x>
       <y>190</y>
       <width>461</width>
-      <height>41</height>
+      <height>25</height>
      </rect>
     </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_student_info">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -155,7 +158,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>705</width>
+     <width>616</width>
      <height>21</height>
     </rect>
    </property>

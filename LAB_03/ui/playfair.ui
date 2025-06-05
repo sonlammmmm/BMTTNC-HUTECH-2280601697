@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>PlayfairMainWindow</class>
+ <widget class="QMainWindow" name="PlayfairMainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>705</width>
-    <height>456</height>
+    <height>581</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Playfair Cipher</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_title">
     <property name="geometry">
      <rect>
       <x>200</x>
       <y>10</y>
-      <width>251</width>
+      <width>300</width>
       <height>51</height>
      </rect>
     </property>
@@ -31,15 +31,15 @@
      </font>
     </property>
     <property name="text">
-     <string>CAESAR CIHER</string>
+     <string>PLAYFAIR CIPHER</string>
     </property>
    </widget>
-   <widget class="QLabel" name="plain_text">
+   <widget class="QLabel" name="plain_text_label">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>120</y>
-      <width>47</width>
+      <width>80</width>
       <height>13</height>
      </rect>
     </property>
@@ -47,12 +47,12 @@
      <string>Plain text:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="key">
+   <widget class="QLabel" name="key_label">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>190</y>
-      <width>47</width>
+      <width>80</width>
       <height>13</height>
      </rect>
     </property>
@@ -60,12 +60,12 @@
      <string>Key:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="cipher_text_label">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>240</y>
-      <width>61</width>
+      <y>260</y>
+      <width>80</width>
       <height>16</height>
      </rect>
     </property>
@@ -77,7 +77,7 @@
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>330</y>
+      <y>340</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -90,7 +90,7 @@
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>330</y>
+      <y>340</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -113,7 +113,7 @@
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>240</y>
+      <y>260</y>
       <width>461</width>
       <height>61</height>
      </rect>
@@ -129,7 +129,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_student_info">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -147,6 +147,32 @@
     </property>
     <property name="text">
      <string>TRẦN SỶ SƠN LÂM - 2280601697</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_matrix">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>80</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Playfair Matrix:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txt_playfair_matrix">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>390</y>
+      <width>461</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
