@@ -102,6 +102,5 @@ def playfair_decrypt():
     matrix = cipher.create_playfair_matrix(key)
     decrypted_text = cipher.playfair_decrypt(text, matrix)
     return f"text: {text} <br/> key: {key} <br/> decrypted text: {decrypted_text}"
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5050, debug=True)
