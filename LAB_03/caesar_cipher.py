@@ -52,7 +52,6 @@ class MyApp(QMainWindow):
                 print("Error while calling API")
         except requests.exceptions.RequestException as e:
             print("Error: %s" % e.message)
-            
 if __name__ == "__main__":
         app = QApplication(sys.argv)
         window = MyApp()
